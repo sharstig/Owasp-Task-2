@@ -1,0 +1,31 @@
+git - version control system (software)
+git --version
+git status
+git config --global user.email "siuu@gmail.com"
+
+HEAD - pointer points toward the current branch
+
+git log  (show author, email, what files are commited) 
+git log --oneline (to view in short)
+
+#creating git repo
+git status
+git init
+git add <file1> <file2>
+git add . (all files)
+
+after this files are in staging area
+
+git commit -m "first commit"
+
+reached repo stage
+
+git branch - show current branch
+git branch <name> - create new branch
+git switch <name> - switch to this branch
+git switch -c <name> - make and switch to new branch
+git checkout <name> - tell if branch not created and switch if exists
+git merge <name>
+
+git branch -m <old> <new> - to change name
+git branch -d <name> - to delete
